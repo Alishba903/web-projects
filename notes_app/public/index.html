@@ -4,9 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NoteNest</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+
+            <div class="logo-container">
+                <img src="./images/mainImg.png" alt="NoteNest Logo">
+
+                <div class="logo-text">
+                    <h1>NoteNest</h1>
+                    <p>Your thoughts, organized</p>
+                </div>
+            </div>
+
+            <button class="new-note-btn">
+                <span>+</span>
+                New Note
+            </button>
+
+            <nav class="navigation">
+
+                <h3>Menu</h3>
+
+                <ul>
+                    <li>All Notes</li>
+                    <li>Favorites</li>
+                    <li>Trash</li>
+                </ul>
+
+            </nav>
+
+            <section class="categories">
+
+                <h3>Categories</h3>
+
+                <ul>
+                    <li>Personal</li>
+                    <li>Work</li>
+                    <li>Study</li>
+                    <li>Ideas</li>
+                </ul>
+
+            </section>
+
+            <div class="quote-card">
+
+                <p>
+                    Stay organized,<br>
+                    stay inspired.
+                </p>
+
+                <img
+                    src="./images/flowerPotD.png"
+                    alt="Plant Illustration">
+
+            </div>
+
+        </aside>
+
+        <main class="main-content">
+
+            <header class="header">
+
+                <div class="search-box">
+                    <input
+                        type="text"
+                        placeholder="Search notes...">
+                </div>
+
+                <button class="theme-btn">
+                    🌙
+                </button>
+
+            </header>
+
+            <section class="toolbar">
+
+                <div class="toolbar-left">
+                    <h2>All Notes</h2>
+                    <p>12 Notes</p>
+                </div>
+
+                <div class="toolbar-right">
+
+                    <select class="sort-by">
+                        <option>Latest</option>
+                        <option>Oldest</option>
+                        <option>A-Z</option>
+                    </select>
+
+                    <select class="view-style">
+                        <option>Grid View</option>
+                        <option>List View</option>
+                    </select>
+
+                </div>
+
+            </section>
+
+            <section class="notes-grid">
+
+                <article class="note-card">
+
+                    <div class="card-header">
+
+                        <span class="category">
+                            Work
+                        </span>
+
+                        <button class="card-menu">
+                            ⋮
+                        </button>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h3>Finish Express Project</h3>
+
+                        <p>
+                            Complete CRUD routes and connect
+                            frontend with backend.
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer">
+
+                        <small>
+                            July 29, 2026
+                        </small>
+
+                        <button class="favorite-btn">
+                            ⭐
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+        </main>
+
+    </div>
+
     <script src="app.js"></script>
+
 </body>
 </html>
