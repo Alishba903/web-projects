@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #59C3C3;
+    --background: #F8FCFC;
+    --surface: #FFFFFF;
+    --text: #1F2937;
+    --secondary-text: #6B7280;
+    --border: #E5E7EB;
+    --favorite: #F6C453;
+    --delete: #EF6B6B;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+}
